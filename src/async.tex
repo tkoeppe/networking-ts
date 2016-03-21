@@ -1031,7 +1031,8 @@ template<class T, class ProtoAllocator>
 
 \indexlibrary{\idxcode{execution_context}}%
 \pnum
-Class \tcode{execution_context} implements an extensible, type-safe, polymorphic set of services, indexed by service type.
+Class \tcode{execution_context} implements an extensible, type-safe,
+polymorphic set of services, indexed by service type.
 
 \begin{codeblock}
 namespace std {
@@ -1039,8 +1040,7 @@ namespace experimental {
 namespace net {
 inline namespace v1 {
 
-  class execution_context
-  {
+  class execution_context {
   public:
     class service;
 
@@ -1532,8 +1532,7 @@ namespace net {
 inline namespace v1 {
 
   template<class T, class Executor>
-  class executor_binder
-  {
+  class executor_binder {
   public:
     // types:
 
